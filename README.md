@@ -38,17 +38,62 @@ If the output is 1, then the led glows.
 Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
+Developed by: OVIYA P
+RegisterNumber:  23013207
 
-### Output:
-### RTL
-### TIMING DIAGRAM
+## HALFADDER CODE:
 
+module Halfadder(sum,a,b,carry);
 
-### TRUTH TABLE 
+input a,b;
+
+output sum,carry;
+
+xor(sum,a,b);
+
+and(carry,a,b);
+
+endmodule
+
+## TRUTH TABLE FOR HALFADDER:
+
+![image](https://github.com/Oviya24032K6/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147139999/b78f1155-a978-4332-87c3-43dc2ad8c540)
+
+## RTL VIEWER FOR HALFADDER:
+
+![image](https://github.com/Oviya24032K6/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147139999/f040d1d6-8d5f-4002-986c-7e764397962b)
+
+## OUTPUT FOR HALFADDER:
+
+![image](https://github.com/Oviya24032K6/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147139999/e43d3836-8bd2-492d-b9bf-64d88da17c59)
+
+## CODE FOR FULLADDER:
+
+module fulladder(a,b,c,sum,carry);
+
+input a,b,c;
+
+output sum,carry;
+
+xor(sum,a,b,c);
+
+assign carry=a&b | b&c| a&c;
+
+endmodule
+
+## TRUTH TABLE FOR FULLADDER:
+
+![image](https://github.com/Oviya24032K6/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147139999/ff754a1c-68e9-4848-9eb4-09b97b81708a)
+
+## RTL VIEWER FOR FULLADDER:
+
+![image](https://github.com/Oviya24032K6/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147139999/5a28cb14-7807-4be8-88c2-9eeba16489bd)
+
+## OUTPUT FOR FULLADDER:
+
+![image](https://github.com/Oviya24032K6/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147139999/e8ac7409-f15c-4a71-97e9-822c38aada44)
+
 
 ### Result:
+
+Thus the given half adder and full adder are verified using verilog programming
