@@ -90,8 +90,7 @@ endmodule
 ![image](https://github.com/Oviya24032K6/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147139999/5a28cb14-7807-4be8-88c2-9eeba16489bd)
 
 ## OUTPUT FOR FULLADDER:
-
-![image](https://github.com/Oviya24032K6/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147139999/e8ac7409-f15c-4a71-97e9-822c38aada44)
+![image](https://github.com/Oviya24032K6/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147139999/0a90102c-f677-425a-a2a5-72a26ac534ed)
 
 
 ### Result:
